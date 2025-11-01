@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+:root {
+  --primary: #c83a19;
+  --accent: #d9907f;
+  --bg: #fbf5f2;
+  --card: #ffffff;
+  --muted: #6b5752;
+}
+
+body {
+  @apply bg-[color:var(--bg)] text-[color:var(--muted)];
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+img {
+  -webkit-user-drag: none;
+}
+
+aside::-webkit-scrollbar {
+  width: 8px;
+}
+aside::-webkit-scrollbar-thumb {
+  background: #f1c8bf;
+  border-radius: 999px;
+}
